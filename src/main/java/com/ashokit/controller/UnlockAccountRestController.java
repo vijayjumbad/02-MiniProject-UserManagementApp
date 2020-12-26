@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.ashokit.service.UserMgmtServiceImpl;
 
 @RestController
-public class UserUnlockAccountController {
+public class UnlockAccountRestController {
 	 @Autowired
 	private UserMgmtServiceImpl service;
 	 

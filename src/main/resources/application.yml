@@ -1,0 +1,4 @@
+spring:
+  liquibase:
+    driver-class-name: oracle.jdbc.driver.OracleDriver  datasource:    url: jdbc:oracle:thin:@localhost:1521:xe    username: Vijay    password: Vijay  jpa:    database-platform: org.hibernate.dialect.H2Dialect  mustache:    prefix: /views/
+    suffix: .jsp
